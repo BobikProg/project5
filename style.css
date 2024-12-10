@@ -23,9 +23,18 @@ body {
 .card__button:hover {
     /* Прозрачность всего элемента  - такое значение говорит браузеру показывать только 70% элемента по прозрачности */
     opacity: .7;
+    padding: 9px 26px;
 }
 
 .icon {
     width: 20px;
     color: #363062;
+}
+
+.card {
+    margin: 30px auto;
+    width: 358px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 30px;
 }
